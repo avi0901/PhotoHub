@@ -1,38 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Edu+NSW+ACT+Foundation&family=Kaushan+Script&display=swap');
+
+/* base styles */
+* {
+  margin: 0px;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  color: #078132;
+}
+
+body{
+  background-color: #EEF1FF;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
+.link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.logo{
+  display: inline;
 }
+
+.logo h1{
+    /* position: absolute; */
+    font-family: 'Delicious Handrawn', cursive;
+    top: 15px;
+    left: 30px;
+    font-size: 70px;
+    font-weight: bold;
+    color: #060606;
+    text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+}
+
+.logo span{
+  font-family: 'Delicious Handrawn', cursive;
+  color: #E7B10A;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 16px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  width: 600px;
+  text-align: center;
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.08);
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #078132;
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+}
+
+button {
+  background-color: #078132;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.08);
+}
+
+button:hover {
+  background-color: #05a025;
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.navbar {
+  background-color: #DBE2EF;
+  padding: 20px;
+  display: flex;
+  justify-content: center; /* Center the navbar items horizontally */
+  align-items: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.links {
+  display: flex;
+  justify-content: center; /* Center the links horizontally */
+  align-items: center;
+  gap: 20px;
+}
+
+.links a {
+  color: #343a40;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 10px;
+  width: 100px;
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.2s ease-in-out;
+  border: 2px solid #007bff; /* Add a border around the links */
+  border-radius: 60px; /* Add some border radius to the links */
+}
+
+.links a:hover {
+  color: #f2f5f9;
+  background-color: #37306B;
+  border-color: #343a40; /* Change the border color on hover */
+  border-radius: 10px; /* Increase the border radius on hover */
+}
+
+.photolist h2 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 4em; /* font size in em units */
+  /* color: #0E8388; hexadecimal color value */
+  color: #03C988;
+  text-shadow: 0 0 4px #FF0000, 0 0 3px #0000FF;
+}
+
+.photolist img{
+  width: 400px;
+  height: 225px;
+  margin: 15px;
+  padding: 4px;
+  background-color: #bdbef5;
+  border: 1px solid #9eaff9 ;
+  border-radius: 10px;
+  transition: background-color 0.5s ease;
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+}
+
+.photolist img:hover{
+  background-color: #f8f9fa;
+  border-color: #343a40;
+  transform: scale(1.1);
+}
+
