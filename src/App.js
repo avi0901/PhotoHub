@@ -18,6 +18,7 @@ function App() {
         <div className="content">
           <Routes>
             <Route path="/" element={<DataApi title="India"/>}/>
+            <Route path="/PhotoHub" element={<DataApi title="India"/>}/>
             <Route path="/mountain" element={<DataApi title="Mountain"/>}/>
             <Route path="/goa" element={<DataApi title="Goa"/>}/>
             <Route path="/beach" element={<DataApi title="Beach"/>}/>
