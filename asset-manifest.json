@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PhotoHub/static/css/main.f4fb6184.css",
+    "main.js": "/PhotoHub/static/js/main.033b1c63.js",
+    "index.html": "/PhotoHub/index.html",
+    "main.f4fb6184.css.map": "/PhotoHub/static/css/main.f4fb6184.css.map",
+    "main.033b1c63.js.map": "/PhotoHub/static/js/main.033b1c63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4fb6184.css",
+    "static/js/main.033b1c63.js"
+  ]
+}
